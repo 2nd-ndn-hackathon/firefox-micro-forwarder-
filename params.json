@@ -1,0 +1,6 @@
+{
+  "name": "Firefox-micro-forwarder",
+  "tagline": "Micro forwarder Firefox add-on",
+  "body": "### Motivation and problem statement\r\n\r\nBrowser applications may need a local forwarder. A Firefox add-on can provide a micro forwarder common to all browser tabs where users can visit a web page, click to accept a plug-in, and experience an NDN application.\r\n\r\n### Contribution to NDN\r\n\r\n* Users and developers can experiment with NDN\r\n* Provide an easy gateway to using NFD\r\n\r\n### Tasks\r\n\r\n* Review existing work for in-browser functions\r\n* Implement a FIB/multicast in JavaScript\r\n* Toolbar to configure and show routes/status\r\n* Expand NDN-JS PIT as needed for a forwarder\r\n* Basic content store with simple retention policy \r\n\r\n### Required knowledge for participants\r\n* JavaScript programming\r\n* Forwarder basics (PIT, FIB, CS)\r\n* Bonus: Experience with Firefox add-ons\r\n\r\n### Expected outcome\r\n\r\nDemonstrate JavaScript ChronChat where two tabs communicate with each other plus a remote user via the in-browser forwarder\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
